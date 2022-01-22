@@ -11,6 +11,8 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
     color: #F9FAF8;
+    margin-right: 32px;
+    margin-left: 32px;
 }
 
 .header-links{
@@ -22,7 +24,8 @@ body{
     font-size: 18px;
     color: #E5E7EB;
     list-style-type: none;
-    justify-content: space-between;
+    justify-content: flex-end;
+    margin-right: 32px;
 }
 
 ul{
@@ -33,4 +36,5 @@ ul{
 .upper{
     flex: 1;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
+}
