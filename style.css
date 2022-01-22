@@ -14,13 +14,23 @@ body{
 }
 
 .header-links{
+    margin-left: auto;
+    display: flex;
+    flex: 1;
+    gap: 8px;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     color: #E5E7EB;
     list-style-type: none;
+    justify-content: space-between;
 }
 
 ul{
     font-family: 'Roboto', sans-serif;
     display: flex;
 }
+
+.upper{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
